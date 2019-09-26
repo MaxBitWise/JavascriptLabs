@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+let day = prompt("Введите день","");
+let month = prompt("Введите месяц","");
+let stroke = "сойдёт";
+((+day) + (+month)) > 20 ? stroke = "терпимо" : ((+day) + (+month)) > 10 ? stroke = "всё ещё маловато" : 
+    ((+day) + (+month)) > 1 ? stroke = "маловато" : stroke = stroke;
+alert(stroke);
+</script>
+</body>
+</html>
